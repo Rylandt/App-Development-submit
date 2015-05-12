@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flickr-viewer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_top_locations">TopLocations</string>
+    <string name="title_activity_top_photographs">TopPhotographs</string>
+    <string name="title_activity_specific_location">SpecificLocationActivity</string>
+    <string name="title_activity_profile">Profile</string>
+
+</resources>

@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:id="@+id/imgBanner"
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banner"/>
+
+    <ImageView
+        android:id="@+id/imgFace"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/face"
+        android:layout_above="@+id/imgLocation"
+        android:layout_margin="20dp"
+        android:paddingBottom="5dp"/>
+
+    <TextView
+        android:id="@+id/lblName"
+        android:text="Toby Ryland"
+        android:gravity="right"
+        android:textSize="32sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBanner"
+        android:layout_margin="20dp"
+        android:textColor="#212121"/>
+
+
+    <ImageView
+        android:id="@+id/imgLocation"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:src="@drawable/location"
+        android:layout_below="@+id/lblName"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/lblLocation"
+        android:text="Bath, England"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/imgLocation"
+        android:layout_alignBottom="@id/imgLocation"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/imgLocation"
+        android:textColor="#212121"/>
+
+    <ImageView
+        android:id="@+id/imgGit"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:src="@drawable/git"
+        android:layout_below="@+id/imgLocation"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/lblGithub"
+        android:text="Rylandt"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/imgGit"
+        android:layout_alignBottom="@id/imgGit"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/imgGit"
+        android:textColor="#212121"/>
+
+    <ImageView
+        android:id="@+id/imgBday"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:src="@drawable/birthday"
+        android:layout_below="@+id/imgGit"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/lblBday"
+        android:text="2nd April"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/imgBday"
+        android:layout_alignBottom="@id/imgBday"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/imgBday"
+        android:textColor="#212121"/>
+
+
+    <ImageView
+        android:id="@+id/imgWeb"
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:src="@drawable/website"
+        android:layout_below="@+id/imgBday"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:id="@+id/lblWeb"
+        android:text="www.google.com"
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/imgWeb"
+        android:layout_alignBottom="@id/imgWeb"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/imgWeb"
+        android:textColor="#212121"/>
+
+</RelativeLayout>

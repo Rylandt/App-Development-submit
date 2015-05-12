@@ -1,0 +1,41 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2196F3"
+    >
+
+    <TextView
+        android:id="@+id/lblTitle"
+        android:text="Welcome to Toby's Flickr Viewer App"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/txtSearch"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:background="#FFEBEE"
+        android:layout_below="@id/imgOne"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Search"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/txtSearch"
+        android:layout_margin="5dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

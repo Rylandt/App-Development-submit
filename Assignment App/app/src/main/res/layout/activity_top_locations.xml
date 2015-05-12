@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ryl13138884.flickrapp.TopLocations"
+    android:background="#dedede">
+
+    <ListView
+        android:id="@+id/listLocations"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:divider="#212121"
+        android:textSize="32sp"
+        android:dividerHeight="4dp"
+        />
+
+</RelativeLayout>
